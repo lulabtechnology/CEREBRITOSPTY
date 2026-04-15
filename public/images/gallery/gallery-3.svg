@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#BDE22A"/>
+      <stop offset="1" stop-color="#A3EDF8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#263238" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" rx="54" fill="url(#g)"/>
+  <circle cx="235" cy="235" r="150" fill="#fff" opacity=".42"/>
+  <circle cx="940" cy="240" r="160" fill="#F64EB8" opacity=".25"/>
+  <circle cx="820" cy="730" r="170" fill="#BDE22A" opacity=".35"/>
+  <circle cx="300" cy="660" r="120" fill="#FBD15F" opacity=".45"/>
+  <g filter="url(#shadow)">
+    <rect x="110" y="105" width="840" height="270" rx="58" fill="#fff" opacity=".88"/>
+    <text x="165" y="225" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#263238">Momento Cerebritos 3</text>
+    <text x="165" y="292" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#667085">Imagen editable para Cerebritos</text>
+  </g>
+  <g font-size="60">
+    <text x="170" y="610">⭐</text><text x="890" y="580">🌈</text><text x="620" y="455">🧩</text><text x="1010" y="760">✏️</text>
+  </g>
+</svg>
