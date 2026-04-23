@@ -19,7 +19,7 @@ export default function Logo({ compact = false, white = false, className = "" }:
           src={site.logo}
           alt="Logo Cerebritos"
           onError={() => setFailed(true)}
-          className={compact ? "h-12 w-auto object-contain" : "h-16 w-auto object-contain"}
+          className={compact ? "h-14 w-auto object-contain" : "h-24 w-auto object-contain sm:h-28"}
         />
       ) : (
         <div className={`rounded-full px-5 py-3 text-xl font-black shadow-soft ${white ? "bg-white text-fucsia" : "bg-white text-fucsia"}`}>

@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cerebritos | Centro de apoyo educativo y neurodesarrollo",
-  description: "Apoyo educativo, psicología, fonoaudiología, lectoescritura y estudio dirigido para niños.",
+  title: "Cerebritos | Centro de apoyo educativo en Panamá",
+  description: "Estudio dirigido, tutorías, lectoescritura y apoyo educativo para niños y adolescentes en Panamá.",
   openGraph: {
-    title: "Cerebritos | Centro de apoyo educativo y neurodesarrollo",
-    description: "Acompañamiento educativo, emocional y de lenguaje para niños y familias.",
+    title: "Cerebritos | Centro de apoyo educativo en Panamá",
+    description: "Acompañamiento educativo, tutorías, lectoescritura y apoyo escolar para niños, adolescentes y familias.",
     type: "website",
-    images: ["/images/hero/hero-kids-learning.svg"]
+    images: ["/logo-cerebritos.png"]
   },
   icons: {
-    icon: "/logo-cerebritos.svg"
+    icon: "/logo-cerebritos.png"
   }
 };
 
