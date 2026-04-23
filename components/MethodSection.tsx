@@ -9,6 +9,9 @@ export default function MethodSection() {
     <section id="metodo" className="section-padding bg-white">
       <div className="container-page">
         <SectionHeading eyebrow="Método" title="Cómo trabajamos cada proceso" text="Un recorrido simple, humano y profesional para acompañar cada avance." />
+        <div className="mx-auto mb-10 max-w-2xl rounded-[2.5rem] bg-gradient-to-br from-lila/30 via-white to-cielo/30 p-5 shadow-soft">
+          <img src="/images/custom/method-puzzle.png" alt="Proceso y acompañamiento Cerebritos" className="mx-auto h-[240px] w-full object-contain sm:h-[320px]" />
+        </div>
         <div className="relative grid gap-6 lg:grid-cols-4">
           <div className="absolute left-0 right-0 top-20 hidden h-1 rounded-full bg-gradient-to-r from-cielo via-fucsia to-limon lg:block" />
           {site.method.map((item, index) => (

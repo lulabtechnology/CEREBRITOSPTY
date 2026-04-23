@@ -46,10 +46,13 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, scale: 0.9, y: 30 }} animate={{ opacity: 1, scale: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.25 }} className="relative mx-auto w-full max-w-[620px]">
           <div className="absolute -inset-5 rounded-blob bg-gradient-to-br from-sol via-fucsia/50 to-limon opacity-70 blur-2xl" />
           <div className="relative overflow-hidden rounded-[3rem] border-[10px] border-white bg-white shadow-soft">
-            <img src={site.hero.image} alt="Niños aprendiendo en Cerebritos" className="h-[430px] w-full object-cover sm:h-[560px]" />
+            <img src={site.hero.image} alt="Mascota principal de Cerebritos" className="h-[430px] w-full bg-white p-5 object-contain sm:h-[560px] sm:p-8" />
           </div>
           <motion.div className="glass-card absolute -left-3 top-8 rounded-[1.5rem] p-4 sm:-left-10" animate={{ y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 4 }}>
             <p className="text-3xl">🧠</p><p className="text-sm font-black text-tinta">Aprender con alegría</p>
+          </motion.div>
+          <motion.div className="absolute -right-2 top-10 hidden rounded-[1.7rem] bg-white/90 p-3 shadow-soft backdrop-blur sm:block">
+            <img src="/images/custom/decor-abc.png" alt="Decoración Cerebritos" className="h-28 w-36 object-contain" />
           </motion.div>
           <motion.div className="glass-card absolute -bottom-4 right-0 rounded-[1.5rem] p-4 sm:-right-8" animate={{ y: [0, 12, 0] }} transition={{ repeat: Infinity, duration: 4.5 }}>
             <p className="text-3xl">🌟</p><p className="text-sm font-black text-tinta">Confianza paso a paso</p>

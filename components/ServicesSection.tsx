@@ -40,7 +40,7 @@ export default function ServicesSection() {
                 className="group overflow-hidden rounded-[2.2rem] bg-white shadow-soft"
               >
                 <div className="relative h-44 overflow-hidden">
-                  <img src={service.image} alt={service.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-110" />
+                  <img src={service.image} alt={service.title} className="h-full w-full bg-[#f9f7ff] p-4 object-contain transition duration-500 group-hover:scale-105" />
                   <div className="absolute inset-0 bg-gradient-to-t from-tinta/30 to-transparent" />
                   <div style={{ backgroundColor: service.color }} className="absolute left-4 top-4 flex h-14 w-14 items-center justify-center rounded-2xl text-tinta shadow-soft">
                     <Icon size={27} />

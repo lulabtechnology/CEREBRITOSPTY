@@ -16,7 +16,10 @@ export default function PlayLearningSection() {
       <div className="container-page grid items-center gap-12 lg:grid-cols-2">
         <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="relative">
           <div className="absolute -inset-4 rounded-blob bg-fucsia/20 blur-2xl" />
-          <img src="/images/about/centro-infantil.svg" alt="Aprender jugando" className="relative h-[440px] w-full rounded-[3rem] border-[10px] border-white object-cover shadow-soft sm:h-[560px]" />
+          <img src="/images/custom/play-paint.png" alt="Aprender jugando" className="relative h-[440px] w-full rounded-[3rem] border-[10px] border-white bg-white p-5 object-contain shadow-soft sm:h-[560px] sm:p-8" />
+                  <div className="absolute -bottom-4 -right-2 hidden rounded-[1.6rem] bg-white p-3 shadow-soft sm:block">
+            <img src="/images/custom/decor-stickers.png" alt="Decoración infantil" className="h-24 w-36 object-contain" />
+          </div>
         </motion.div>
         <div>
           <SectionHeading centered={false} eyebrow="Aprender jugando" title="El juego también construye habilidades importantes" text="La exploración, el disfrute y la creatividad son parte del desarrollo infantil. Por eso cada experiencia debe sentirse bonita, segura y llena de sentido." />

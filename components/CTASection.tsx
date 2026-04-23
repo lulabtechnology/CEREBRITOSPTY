@@ -13,6 +13,9 @@ export default function CTASection() {
           <div className="absolute -bottom-20 right-5 h-56 w-56 rounded-full bg-limon/55 blur-2xl" />
           <span className="absolute left-8 top-8 animate-floaty text-4xl">🌈</span>
           <span className="absolute bottom-8 right-10 animate-wiggle text-4xl">🧩</span>
+          <div className="absolute right-4 top-4 hidden rounded-[1.5rem] bg-white/90 p-2 shadow-soft lg:block">
+            <img src="/images/custom/decor-stickers.png" alt="Decoración escolar" className="h-20 w-32 object-contain" />
+          </div>
           <div className="relative mx-auto max-w-3xl">
             <h2 className="text-balance text-4xl font-black tracking-[-0.045em] text-white sm:text-5xl lg:text-6xl">¿Tu hijo necesita apoyo para aprender con más confianza?</h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg font-semibold leading-8 text-white/90">En Cerebritos acompañamos cada proceso con amor, paciencia y herramientas pensadas para su desarrollo.</p>

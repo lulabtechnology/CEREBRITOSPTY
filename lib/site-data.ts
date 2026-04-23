@@ -27,7 +27,7 @@ export const site = {
       "Acompañamos a niños, adolescentes y familias con estudio dirigido, tutorías, lectoescritura, apoyo escolar y actividades que fortalecen su aprendizaje con cercanía y profesionalismo.",
     primaryCta: "Agendar clase prueba",
     secondaryCta: "Ver servicios",
-    image: "/images/hero/hero-kids-learning.svg"
+    image: "/images/custom/hero-mascot.png"
   },
   trust: [
     { title: "Aprendizaje con amor", text: "Procesos cálidos, respetuosos y pensados para que cada niño se sienta seguro." },
@@ -39,49 +39,49 @@ export const site = {
     {
       title: "Estudio dirigido / Apoyo en tareas escolares",
       icon: "school",
-      image: "/images/services/after-school.svg",
+      image: "/images/custom/study-mascot.png",
       color: "#A3EDF8",
       text: "Acompañamiento guiado para tareas, agendas escolares, hábitos de estudio y seguimiento después de clases."
     },
     {
       title: "Tutorías / nivelación académica",
       icon: "book",
-      image: "/images/services/lectoescritura.svg",
+      image: "/images/custom/hero-mascot.png",
       color: "#FBD15F",
       text: "Refuerzo académico en áreas clave para mejorar comprensión, desempeño y seguridad en el proceso escolar."
     },
     {
       title: "Tutorías / nivelación académica - virtual",
       icon: "calendar",
-      image: "/images/services/after-school.svg",
+      image: "/images/custom/method-puzzle.png",
       color: "#E0BDFF",
       text: "Acompañamiento virtual para estudiantes que necesitan apoyo flexible desde casa sin perder continuidad."
     },
     {
       title: "Programa de lectoescritura",
       icon: "message",
-      image: "/images/services/fonoaudiologia.svg",
+      image: "/images/custom/read-mascot.png",
       color: "#F64EB8",
       text: "Programa propio orientado a fortalecer lectura, escritura, comprensión y bases fundamentales del aprendizaje."
     },
     {
       title: "Programa individual de lectoescritura - virtual",
       icon: "sparkles",
-      image: "/images/services/lectoescritura.svg",
+      image: "/images/custom/read-mascot.png",
       color: "#BDE22A",
       text: "Acompañamiento individual en modalidad virtual para avanzar de forma personalizada en el proceso lector y escritor."
     },
     {
       title: "Tutorías a domicilio",
       icon: "users",
-      image: "/images/services/psicologia.svg",
+      image: "/images/custom/study-mascot.png",
       color: "#A3EDF8",
       text: "Atención en casa para familias que necesitan mayor comodidad, cercanía y soporte académico personalizado."
     },
     {
       title: "Clases de baile urbano para niños y adolescentes",
       icon: "heart",
-      image: "/images/services/psicologia.svg",
+      image: "/images/custom/dance-mascot.png",
       color: "#FBD15F",
       text: "Espacio creativo para desarrollar expresión, coordinación, confianza y disfrute a través del movimiento."
     }
@@ -98,10 +98,10 @@ export const site = {
     { name: "Información editable", role: "Equipo Cerebritos", image: "/images/team/team-3.svg", text: "Texto editable para mantener la información fiel al equipo real del centro." }
   ],
   gallery: [
-    "/images/gallery/gallery-1.svg",
-    "/images/gallery/gallery-2.svg",
-    "/images/gallery/gallery-3.svg",
-    "/images/gallery/gallery-4.svg"
+    "/images/custom/banner-friends.jpg",
+    "/images/custom/method-puzzle.png",
+    "/images/custom/play-paint.png",
+    "/images/custom/decor-abc.png"
   ],
   testimonials: [
     { name: "Mamá de estudiante", text: "Nos encanta el acompañamiento y la paciencia. Hemos visto más confianza y mejor organización en casa y en la escuela." },
