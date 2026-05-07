@@ -14,7 +14,7 @@ export default function Footer() {
         <div>
           <h3 className="mb-4 text-lg font-black">Menú</h3>
           <div className="grid gap-3 text-white/75">
-            <a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#metodo">Método</a><a href="#equipo">Equipo</a><a href="#contacto">Contacto</a>
+            <a href="#inicio">Inicio</a><a href="#servicios">Servicios</a><a href="#metodo">Método</a><a href="#contacto">Contacto</a>
           </div>
         </div>
         <div>

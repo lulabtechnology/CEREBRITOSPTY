@@ -31,7 +31,7 @@ export const site = {
   trust: [
     { title: "Aprendizaje con amor", text: "Procesos cálidos, respetuosos y pensados para que cada niño se sienta seguro." },
     { title: "Atención personalizada", text: "Cada acompañamiento se adapta al ritmo, necesidades y fortalezas del niño." },
-    { title: "Resultados reales", text: "Aplicamos una metodología integral que funciona: identificamos cómo aprende cada niño y utilizamos estrategias específicas para que avance, gane confianza y mejore sus resultados." },
+    { title: "Resultados reales", text: "Aplicamos una metodología integral que funciona. Identificamos cómo aprende cada niño y utilizamos estrategias específicas para que avance, gane confianza y mejore sus resultados." },
     { title: "Acompañamiento familiar", text: "Orientación cercana para que la familia también sea parte del progreso." }
   ],
   services: [

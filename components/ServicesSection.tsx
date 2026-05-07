@@ -39,10 +39,9 @@ export default function ServicesSection() {
                 whileHover={{ y: -10, rotate: index % 2 ? -1 : 1 }}
                 className="group flex h-full flex-col overflow-hidden rounded-[2.2rem] bg-white shadow-soft"
               >
-                <div className="relative h-48 overflow-hidden">
-                  <img src={service.image} alt={service.title} className="h-full w-full bg-[#f9f7ff] p-4 object-contain transition duration-500 group-hover:scale-105" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-tinta/25 to-transparent" />
-                  <div style={{ backgroundColor: service.color }} className="absolute left-4 top-4 flex h-14 w-14 items-center justify-center rounded-2xl text-tinta shadow-soft">
+                <div className="relative flex h-48 items-center justify-center overflow-hidden bg-[#f8f6ff]">
+                  <img src={service.image} alt={service.title} className="h-full w-full object-contain p-4 transition duration-500 group-hover:scale-105" />
+                                    <div style={{ backgroundColor: service.color }} className="absolute left-4 top-4 flex h-14 w-14 items-center justify-center rounded-2xl text-tinta shadow-soft">
                     <Icon size={27} />
                   </div>
                 </div>

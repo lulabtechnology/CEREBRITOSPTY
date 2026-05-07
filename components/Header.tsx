@@ -10,7 +10,6 @@ const nav = [
   ["Inicio", "#inicio"],
   ["Servicios", "#servicios"],
   ["Método", "#metodo"],
-  ["Equipo", "#equipo"],
   ["Testimonios", "#testimonios"],
   ["Contacto", "#contacto"]
 ];

@@ -8,9 +8,9 @@ import Logo from "./Logo";
 
 const chips = [
   "Programa After school / estudio dirigido",
-  "Tutoría sombra especializada",
   "Programa de Lectoescritura intensivo",
   "Programa de Lectoescritura sabatino",
+  "Tutoría sombra especializada",
   "Clases de bailes urbanos"
 ];
 
