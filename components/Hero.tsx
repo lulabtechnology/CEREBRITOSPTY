@@ -58,20 +58,6 @@ export default function Hero() {
           <motion.div className="glass-card absolute -left-3 top-8 rounded-[1.5rem] p-4 sm:-left-10" animate={{ y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 4 }}>
             <p className="text-3xl">🧠</p><p className="text-sm font-black text-tinta">Aprender con alegría</p>
           </motion.div>
-          <motion.img
-            src="/images/custom/sticker-rainbow.png"
-            alt="Arcoíris decorativo"
-            className="absolute -right-1 top-8 hidden h-24 w-32 object-contain drop-shadow-lg sm:block lg:h-28 lg:w-36"
-            animate={{ y: [0, -10, 0] }}
-            transition={{ repeat: Infinity, duration: 4.2 }}
-          />
-          <motion.img
-            src="/images/custom/sticker-pencil.png"
-            alt="Lápiz decorativo"
-            className="absolute bottom-10 left-4 hidden h-20 w-20 object-contain drop-shadow-lg sm:block lg:h-24 lg:w-24"
-            animate={{ rotate: [0, -4, 0], y: [0, 8, 0] }}
-            transition={{ repeat: Infinity, duration: 4.8 }}
-          />
           <motion.div className="glass-card absolute -bottom-4 right-0 rounded-[1.5rem] p-4 sm:-right-8" animate={{ y: [0, 12, 0] }} transition={{ repeat: Infinity, duration: 4.5 }}>
             <p className="text-3xl">🌟</p><p className="text-sm font-black text-tinta">Confianza paso a paso</p>
           </motion.div>

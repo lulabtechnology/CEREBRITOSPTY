@@ -6,8 +6,8 @@ export default function FloatingShapes() {
       <div className="absolute bottom-[14%] left-[8%] h-24 w-24 animate-floaty rounded-[35%] bg-limon/45 [animation-delay:2s]" />
       <div className="absolute bottom-[20%] right-[14%] h-14 w-14 animate-wiggle rounded-xl bg-lila/70" />
       <span className="absolute left-[18%] top-[26%] animate-floaty text-3xl [animation-delay:0.5s]">⭐</span>
-      <span className="absolute right-[22%] top-[11%] animate-floaty text-4xl [animation-delay:1.3s]">🌈</span>
-      <span className="absolute bottom-[20%] right-[5%] animate-floaty text-3xl [animation-delay:2.2s]">✏️</span>
+      <img src="/images/custom/sticker-rainbow.png" alt="" className="absolute right-[20%] top-[6%] h-10 w-14 animate-floaty object-contain [animation-delay:1.3s]" />
+      <img src="/images/custom/sticker-pencil.png" alt="" className="absolute bottom-[16%] right-[4%] h-14 w-10 animate-floaty object-contain [animation-delay:2.2s]" />
       <span className="absolute bottom-[35%] left-[3%] animate-wiggle text-3xl">🧩</span>
     </div>
   );
