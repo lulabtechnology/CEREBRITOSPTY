@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Instagram, Mail, MapPin, MessageCircle, Phone, Send } from "lucide-react";
+import { Instagram, MapPin, MessageCircle, Send } from "lucide-react";
 import { site } from "@/lib/site-data";
 import SectionHeading from "./SectionHeading";
 
@@ -32,21 +32,13 @@ export default function ContactSection() {
             centered={false}
             eyebrow="Contacto"
             title="Agenda una clase prueba o consulta"
-            text="Completa los datos y envía el mensaje directo por WhatsApp. También puedes escribir por Instagram o correo."
+            text="Completa los datos y envía el mensaje directo por WhatsApp. También puedes escribir por Instagram."
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
             <a href={site.whatsapp} target="_blank" className="flex items-center gap-4 rounded-[2rem] bg-limon/35 p-5 shadow-soft transition hover:-translate-y-1">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-tinta"><MessageCircle /></div>
               <div><p className="font-black text-tinta">WhatsApp</p><p className="text-suave">{site.whatsappDisplay}</p></div>
             </a>
-            <a href={`mailto:${site.email}`} className="flex items-center gap-4 rounded-[2rem] bg-cielo/35 p-5 shadow-soft transition hover:-translate-y-1">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-tinta"><Mail /></div>
-              <div><p className="font-black text-tinta">Correo</p><p className="text-suave break-all">{site.email}</p></div>
-            </a>
-            <div className="flex items-center gap-4 rounded-[2rem] bg-fucsia/10 p-5 shadow-soft">
-              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-fucsia"><Phone /></div>
-              <div><p className="font-black text-tinta">Teléfono alterno</p><p className="text-suave">{site.phoneAltDisplay}</p></div>
-            </div>
             <a href={site.instagram} target="_blank" className="flex items-center gap-4 rounded-[2rem] bg-lila/30 p-5 shadow-soft transition hover:-translate-y-1">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-fucsia"><Instagram /></div>
               <div><p className="font-black text-tinta">Instagram</p><p className="text-suave">@cerebritoscentro</p></div>

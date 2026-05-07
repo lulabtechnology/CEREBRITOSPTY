@@ -6,7 +6,13 @@ import { site } from "@/lib/site-data";
 import FloatingShapes from "./FloatingShapes";
 import Logo from "./Logo";
 
-const chips = ["Apoyo educativo", "Fonoaudiología", "Psicología infantil", "Lectoescritura"];
+const chips = [
+  "Programa After school / estudio dirigido",
+  "Tutorías",
+  "Programa de Lectoescritura intensivo",
+  "Programa de Lectoescritura sabatino",
+  "Clases de bailes urbanos"
+];
 
 export default function Hero() {
   return (
@@ -34,10 +40,11 @@ export default function Hero() {
               {site.hero.secondaryCta}
             </a>
           </motion.div>
-          <motion.div className="mt-8 grid grid-cols-2 gap-3 sm:flex sm:flex-wrap sm:justify-center lg:justify-start" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
+          <motion.div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
             {chips.map((chip) => (
-              <span key={chip} className="inline-flex items-center justify-center gap-2 rounded-full bg-white/85 px-4 py-3 text-sm font-black text-tinta shadow-soft">
-                <CheckCircle2 size={17} className="text-limon" /> {chip}
+              <span key={chip} className="inline-flex items-center justify-center gap-2 rounded-full bg-white/90 px-4 py-3 text-sm font-black text-tinta shadow-soft">
+                <CheckCircle2 size={17} className="shrink-0 text-limon" />
+                <span>{chip}</span>
               </span>
             ))}
           </motion.div>
@@ -51,9 +58,20 @@ export default function Hero() {
           <motion.div className="glass-card absolute -left-3 top-8 rounded-[1.5rem] p-4 sm:-left-10" animate={{ y: [0, -12, 0] }} transition={{ repeat: Infinity, duration: 4 }}>
             <p className="text-3xl">🧠</p><p className="text-sm font-black text-tinta">Aprender con alegría</p>
           </motion.div>
-          <motion.div className="absolute -right-2 top-10 hidden rounded-[1.7rem] bg-white/90 p-3 shadow-soft backdrop-blur sm:block">
-            <img src="/images/custom/decor-abc.png" alt="Decoración Cerebritos" className="h-28 w-36 object-contain" />
-          </motion.div>
+          <motion.img
+            src="/images/custom/sticker-rainbow.png"
+            alt="Arcoíris decorativo"
+            className="absolute -right-1 top-8 hidden h-24 w-32 object-contain drop-shadow-lg sm:block lg:h-28 lg:w-36"
+            animate={{ y: [0, -10, 0] }}
+            transition={{ repeat: Infinity, duration: 4.2 }}
+          />
+          <motion.img
+            src="/images/custom/sticker-pencil.png"
+            alt="Lápiz decorativo"
+            className="absolute bottom-10 left-4 hidden h-20 w-20 object-contain drop-shadow-lg sm:block lg:h-24 lg:w-24"
+            animate={{ rotate: [0, -4, 0], y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 4.8 }}
+          />
           <motion.div className="glass-card absolute -bottom-4 right-0 rounded-[1.5rem] p-4 sm:-right-8" animate={{ y: [0, 12, 0] }} transition={{ repeat: Infinity, duration: 4.5 }}>
             <p className="text-3xl">🌟</p><p className="text-sm font-black text-tinta">Confianza paso a paso</p>
           </motion.div>

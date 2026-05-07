@@ -8,17 +8,16 @@ export const site = {
   phoneAltDisplay: "+507 6681-6322",
   phoneAltRaw: "66816322",
   email: "beatrizcarm22@hotmail.com",
-  address: "San Francisco, calle 74. A pasos de la salida principal del Parque Omar.",
-  addressFull: "Centro Profesional El Golf, piso 3, Oficina 3-C, Ciudad de Panamá.",
+  address: "San Francisco, calle 74, Centro Profesional El Golf, piso 3 local 3-D.",
+  addressFull: "A pasos de la entrada principal del Parque Omar.",
   ctaMessage: "Agenda tu clase prueba gratuita",
   serviceOptions: [
-    "Estudio dirigido / Apoyo en tareas escolares",
-    "Tutorías / nivelación académica",
-    "Tutorías / nivelación académica - virtual",
-    "Programa de lectoescritura",
-    "Programa individual de lectoescritura - virtual",
-    "Tutorías a domicilio",
-    "Clases de baile urbano para niños y adolescentes"
+    "Programa After school / estudio dirigido",
+    "Tutorías",
+    "Programa de Lectoescritura intensivo",
+    "Programa de Lectoescritura sabatino",
+    "Clases de bailes urbanos",
+    "Tutoría Sombra Especializada"
   ],
   hero: {
     eyebrow: "Apoyo educativo y artístico en San Francisco",
@@ -32,58 +31,51 @@ export const site = {
   trust: [
     { title: "Aprendizaje con amor", text: "Procesos cálidos, respetuosos y pensados para que cada niño se sienta seguro." },
     { title: "Atención personalizada", text: "Cada acompañamiento se adapta al ritmo, necesidades y fortalezas del niño." },
-    { title: "Resultados reales", text: "Refuerzo académico con enfoque práctico para impulsar el rendimiento escolar." },
+    { title: "Resultados reales", text: "Aplicamos una metodología integral que funciona: identificamos cómo aprende cada niño y utilizamos estrategias específicas para que avance, gane confianza y mejore sus resultados." },
     { title: "Acompañamiento familiar", text: "Orientación cercana para que la familia también sea parte del progreso." }
   ],
   services: [
     {
-      title: "Estudio dirigido / Apoyo en tareas escolares",
+      title: "Programa After school / estudio dirigido",
       icon: "school",
       image: "/images/custom/study-mascot.png",
       color: "#A3EDF8",
-      text: "Acompañamiento guiado para tareas, agendas escolares, hábitos de estudio y seguimiento después de clases."
+      text: "Acompañamiento después del colegio para reforzar tareas, hábitos de estudio, organización y seguimiento escolar en un ambiente cercano y motivador."
     },
     {
-      title: "Tutorías / nivelación académica",
+      title: "Tutorías",
       icon: "book",
       image: "/images/custom/hero-mascot.png",
       color: "#FBD15F",
-      text: "Refuerzo académico en áreas clave para mejorar comprensión, desempeño y seguridad en el proceso escolar."
+      text: "Refuerzo académico personalizado para apoyar materias específicas, fortalecer la comprensión y avanzar con mayor seguridad y confianza."
     },
     {
-      title: "Tutorías / nivelación académica - virtual",
-      icon: "calendar",
-      image: "/images/custom/method-puzzle.png",
-      color: "#E0BDFF",
-      text: "Acompañamiento virtual para estudiantes que necesitan apoyo flexible desde casa sin perder continuidad."
-    },
-    {
-      title: "Programa de lectoescritura",
+      title: "Programa de Lectoescritura intensivo",
       icon: "message",
-      image: "/images/custom/read-mascot.png",
+      image: "/images/custom/lectoescritura-intensivo.jpg",
       color: "#F64EB8",
-      text: "Programa propio orientado a fortalecer lectura, escritura, comprensión y bases fundamentales del aprendizaje."
+      text: "Programa enfocado en fortalecer lectura, escritura y comprensión con estrategias intensivas, personalizadas y adaptadas al ritmo de cada niño."
     },
     {
-      title: "Programa individual de lectoescritura - virtual",
-      icon: "sparkles",
+      title: "Programa de Lectoescritura sabatino",
+      icon: "calendar",
       image: "/images/custom/read-mascot.png",
-      color: "#BDE22A",
-      text: "Acompañamiento individual en modalidad virtual para avanzar de forma personalizada en el proceso lector y escritor."
+      color: "#E0BDFF",
+      text: "Alternativa ideal para familias que buscan apoyo los sábados, manteniendo un proceso constante de lectoescritura en un horario práctico."
     },
     {
-      title: "Tutorías a domicilio",
-      icon: "users",
-      image: "/images/custom/study-mascot.png",
-      color: "#A3EDF8",
-      text: "Atención en casa para familias que necesitan mayor comodidad, cercanía y soporte académico personalizado."
-    },
-    {
-      title: "Clases de baile urbano para niños y adolescentes",
+      title: "Clases de bailes urbanos",
       icon: "heart",
       image: "/images/custom/dance-mascot.png",
-      color: "#FBD15F",
-      text: "Espacio creativo para desarrollar expresión, coordinación, confianza y disfrute a través del movimiento."
+      color: "#BDE22A",
+      text: "Espacio dinámico y creativo para desarrollar coordinación, expresión corporal, disciplina y confianza a través del baile."
+    },
+    {
+      title: "Tutoría Sombra Especializada",
+      icon: "users",
+      image: "/images/custom/tutoria-sombra.jpg",
+      color: "#A3EDF8",
+      text: "Acompañamos a tu hijo(a) en el aula para facilitar su inclusión y aprendizaje. Brindamos el soporte emocional y académico necesario para alcanzar su plena autonomía escolar."
     }
   ],
   method: [
@@ -110,10 +102,9 @@ export const site = {
   ],
   faqs: [
     { q: "¿Cómo puedo agendar una clase prueba o evaluación?", a: "Puedes escribir por WhatsApp o completar el formulario para que Cerebritos te contacte y te oriente según el programa que necesites." },
-    { q: "¿Ofrecen apoyo después de clases?", a: "Sí. Cuentan con estudio dirigido y apoyo en tareas escolares para acompañar el proceso después del horario regular." },
-    { q: "¿Trabajan lectoescritura?", a: "Sí. La landing incluye el programa de lectoescritura y su modalidad individual virtual." },
-    { q: "¿Ofrecen tutorías virtuales?", a: "Sí. Existen opciones de tutorías o nivelación académica en modalidad virtual." },
-    { q: "¿Tienen atención a domicilio?", a: "Sí. Se incluye el servicio de tutorías a domicilio para familias que requieran esa modalidad." },
-    { q: "¿Dónde están ubicados?", a: "Cerebritos está ubicado en San Francisco, calle 74, a pasos de la salida principal del Parque Omar." }
+    { q: "¿Ofrecen apoyo después de clases?", a: "Sí, pensamos en la rutina de los niños y sus familias: nuestras clases son en horario de tarde, después del colegio, y también ofrecemos programas los días sábados." },
+    { q: "¿Trabajan lectoescritura?", a: "Sí, nuestra metodología es integral, personalizada, adaptada al ritmo de cada niño y con resultados reales. Además, contamos con programas de lectoescritura intensivo y sabatino." },
+    { q: "¿Ofrecen programas virtuales?", a: "Próximamente." },
+    { q: "¿Dónde están ubicados?", a: "San Francisco, calle 74, Centro Profesional El Golf, piso 3 local 3-D. A pasos de la entrada principal del Parque Omar." }
   ]
 };

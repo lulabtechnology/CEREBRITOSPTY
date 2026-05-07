@@ -12,7 +12,7 @@ export default function FAQSection() {
   return (
     <section className="section-padding bg-gradient-to-b from-white to-cielo/25">
       <div className="container-page max-w-4xl">
-        <SectionHeading eyebrow="Preguntas frecuentes" title="Respuestas rápidas para empezar" text="Contenido prudente y editable para confirmar detalles específicos con Cerebritos." />
+        <SectionHeading eyebrow="Preguntas frecuentes" title="Respuestas rápidas para empezar" text="Aquí encontrarás respuestas rápidas sobre horarios, programas y ubicación de Cerebritos." />
         <div className="space-y-4">
           {site.faqs.map((faq, index) => {
             const open = active === index;
