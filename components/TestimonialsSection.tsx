@@ -9,7 +9,7 @@ export default function TestimonialsSection() {
   return (
     <section id="testimonios" className="section-padding bg-white">
       <div className="container-page">
-        <SectionHeading eyebrow="Testimonios" title="Familias que se sienten acompañadas" text="Testimonios editables para reemplazar con opiniones reales cuando estén disponibles." />
+        <SectionHeading eyebrow="Testimonios" title="Familias que se sienten acompañadas" />
         <div className="grid gap-6 md:grid-cols-3">
           {site.testimonials.map((testimonial, index) => (
             <motion.article key={testimonial.name} initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: index * 0.08 }} className="relative rounded-[2.2rem] bg-gradient-to-br from-cielo/35 via-white to-sol/25 p-7 shadow-soft">
