@@ -1,6 +1,5 @@
 import { Instagram, MapPin, MessageCircle } from "lucide-react";
 import { site } from "@/lib/site-data";
-import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -8,7 +7,9 @@ export default function Footer() {
       <div className="absolute -left-16 -top-16 h-52 w-52 rounded-full bg-fucsia/30 blur-3xl" />
       <div className="container-page relative grid gap-8 md:grid-cols-[1.2fr_0.8fr_1fr]">
         <div>
-          <Logo compact />
+          <div className="inline-flex rounded-full bg-white p-2 shadow-soft">
+            <img src={site.logo} alt="Logo Cerebritos" className="h-20 w-20 rounded-full object-contain sm:h-24 sm:w-24" />
+          </div>
           <p className="mt-5 max-w-md leading-7 text-white/75">Cerebritos, un espacio de apoyo educativo para acompañar a niños, adolescentes y familias con cercanía, creatividad y profesionalismo.</p>
         </div>
         <div>
