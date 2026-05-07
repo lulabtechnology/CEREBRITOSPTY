@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="absolute -left-16 -top-16 h-52 w-52 rounded-full bg-fucsia/30 blur-3xl" />
       <div className="container-page relative grid gap-8 md:grid-cols-[1.2fr_0.8fr_1fr]">
         <div>
-          <Logo />
+          <Logo compact />
           <p className="mt-5 max-w-md leading-7 text-white/75">Cerebritos, un espacio de apoyo educativo para acompañar a niños, adolescentes y familias con cercanía, creatividad y profesionalismo.</p>
         </div>
         <div>

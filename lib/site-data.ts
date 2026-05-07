@@ -20,7 +20,7 @@ export const site = {
     "Tutoría Sombra Especializada"
   ],
   hero: {
-    eyebrow: "Apoyo educativo y artístico en San Francisco",
+    eyebrow: "Acompañamiento personalizado y cercano",
     title: "Un espacio donde aprender también se siente bonito",
     subtitle:
       "Acompañamos a niños, adolescentes y familias con estudio dirigido, tutorías, lectoescritura, apoyo escolar y actividades que fortalecen su aprendizaje con cercanía y profesionalismo.",
@@ -45,21 +45,21 @@ export const site = {
     {
       title: "Tutorías",
       icon: "book",
-      image: "/images/custom/hero-mascot.png",
+      image: "/images/custom/tutorias-mascot.png",
       color: "#FBD15F",
       text: "Refuerzo académico personalizado para apoyar materias específicas, fortalecer la comprensión y avanzar con mayor seguridad y confianza."
     },
     {
       title: "Programa de Lectoescritura intensivo",
       icon: "message",
-      image: "/images/custom/lectoescritura-intensivo.jpg",
+      image: "/images/custom/lectoescritura-intensivo.png",
       color: "#F64EB8",
       text: "Programa enfocado en fortalecer lectura, escritura y comprensión con estrategias intensivas, personalizadas y adaptadas al ritmo de cada niño."
     },
     {
       title: "Programa de Lectoescritura sabatino",
       icon: "calendar",
-      image: "/images/custom/read-mascot.png",
+      image: "/images/custom/read-mascot-clean.png",
       color: "#E0BDFF",
       text: "Alternativa ideal para familias que buscan apoyo los sábados, manteniendo un proceso constante de lectoescritura en un horario práctico."
     },
@@ -73,7 +73,7 @@ export const site = {
     {
       title: "Tutoría Sombra Especializada",
       icon: "users",
-      image: "/images/custom/tutoria-sombra.jpg",
+      image: "/images/custom/tutoria-sombra.png",
       color: "#A3EDF8",
       text: "Acompañamos a tu hijo(a) en el aula para facilitar su inclusión y aprendizaje. Brindamos el soporte emocional y académico necesario para alcanzar su plena autonomía escolar."
     }

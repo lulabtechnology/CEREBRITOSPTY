@@ -11,8 +11,8 @@ export default function CTASection() {
         <motion.div initial={{ opacity: 0, y: 28 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="relative overflow-hidden rounded-[3rem] bg-gradient-to-br from-fucsia via-lila to-cielo px-6 py-16 text-center shadow-soft sm:px-12 lg:py-20">
           <div className="absolute -left-16 -top-16 h-44 w-44 rounded-full bg-sol/65 blur-2xl" />
           <div className="absolute -bottom-20 right-5 h-56 w-56 rounded-full bg-limon/55 blur-2xl" />
-          <span className="absolute left-8 top-8 animate-floaty text-4xl">🌈</span>
-          <span className="absolute bottom-8 right-10 animate-wiggle text-4xl">🧩</span>
+          <img src="/images/custom/float-rainbow.png" alt="" className="absolute left-8 top-8 h-16 w-auto animate-floaty object-contain" />
+          <img src="/images/custom/float-globe.png" alt="" className="absolute bottom-8 right-10 h-12 w-auto animate-wiggle object-contain" />
           <div className="relative mx-auto max-w-3xl">
             <h2 className="text-balance text-4xl font-black tracking-[-0.045em] text-white sm:text-5xl lg:text-6xl">¿Tu hijo necesita apoyo para aprender con más confianza?</h2>
             <p className="mx-auto mt-6 max-w-2xl text-lg font-semibold leading-8 text-white/90">En Cerebritos acompañamos cada proceso con amor, paciencia y herramientas pensadas para su desarrollo.</p>

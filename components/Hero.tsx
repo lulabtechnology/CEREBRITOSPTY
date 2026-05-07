@@ -1,14 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Sparkles } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { site } from "@/lib/site-data";
 import FloatingShapes from "./FloatingShapes";
 import Logo from "./Logo";
 
 const chips = [
   "Programa After school / estudio dirigido",
-  "Tutorías",
+  "Tutoría sombra especializada",
   "Programa de Lectoescritura intensivo",
   "Programa de Lectoescritura sabatino",
   "Clases de bailes urbanos"
@@ -23,8 +23,9 @@ export default function Hero() {
       <div className="container-page relative grid min-h-[calc(100vh-9rem)] items-center gap-12 pb-16 lg:grid-cols-[1.02fr_0.98fr] lg:pb-24">
         <motion.div initial={{ opacity: 0, y: 28 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="text-center lg:text-left">
           <div className="mb-5 flex justify-center lg:justify-start"><Logo /></div>
-          <motion.div className="mb-5 inline-flex items-center gap-2 rounded-full border border-white bg-white/75 px-4 py-2 text-sm font-black text-fucsia shadow-soft backdrop-blur" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
-            <Sparkles size={16} /> {site.hero.eyebrow}
+          <motion.div className="mb-5 inline-flex max-w-full items-center gap-2 rounded-full border border-white bg-white/75 px-4 py-2 text-sm font-black text-fucsia shadow-soft backdrop-blur" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.15 }}>
+            <span className="text-base">✦</span>
+            <span className="text-balance">{site.hero.eyebrow}</span>
           </motion.div>
           <motion.h1 className="text-balance text-5xl font-black leading-[0.95] tracking-[-0.055em] text-tinta sm:text-6xl lg:text-7xl" initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.25 }}>
             {site.hero.title}
@@ -40,11 +41,11 @@ export default function Hero() {
               {site.hero.secondaryCta}
             </a>
           </motion.div>
-          <motion.div className="mt-8 flex flex-wrap justify-center gap-3 lg:justify-start" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
+          <motion.div className="mt-8 grid max-w-3xl gap-3 sm:grid-cols-2 lg:mx-0" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}>
             {chips.map((chip) => (
-              <span key={chip} className="inline-flex items-center justify-center gap-2 rounded-full bg-white/90 px-4 py-3 text-sm font-black text-tinta shadow-soft">
-                <CheckCircle2 size={17} className="shrink-0 text-limon" />
-                <span>{chip}</span>
+              <span key={chip} className="inline-flex min-h-[56px] w-full items-center gap-3 rounded-full bg-white/90 px-4 py-3 text-left text-sm font-black text-tinta shadow-soft sm:text-[15px]">
+                <CheckCircle2 size={18} className="shrink-0 text-limon" />
+                <span className="leading-5">{chip}</span>
               </span>
             ))}
           </motion.div>

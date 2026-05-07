@@ -37,7 +37,7 @@ export default function ServicesSection() {
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ delay: (index % 3) * 0.07 }}
                 whileHover={{ y: -10, rotate: index % 2 ? -1 : 1 }}
-                className="group overflow-hidden rounded-[2.2rem] bg-white shadow-soft"
+                className="group flex h-full flex-col overflow-hidden rounded-[2.2rem] bg-white shadow-soft"
               >
                 <div className="relative h-48 overflow-hidden">
                   <img src={service.image} alt={service.title} className="h-full w-full bg-[#f9f7ff] p-4 object-contain transition duration-500 group-hover:scale-105" />
@@ -46,10 +46,10 @@ export default function ServicesSection() {
                     <Icon size={27} />
                   </div>
                 </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-black leading-tight text-tinta">{service.title}</h3>
+                <div className="flex flex-1 flex-col p-6">
+                  <h3 className="min-h-[64px] text-xl font-black leading-tight text-tinta">{service.title}</h3>
                   <p className="mt-3 min-h-[120px] leading-7 text-suave">{service.text}</p>
-                  <a href={site.whatsapp} target="_blank" className="mt-5 inline-flex rounded-full bg-tinta px-5 py-3 text-sm font-black text-white transition hover:bg-fucsia">Consultar</a>
+                  <a href={site.whatsapp} target="_blank" className="mt-5 inline-flex w-fit rounded-full bg-tinta px-5 py-3 text-sm font-black text-white transition hover:bg-fucsia">Consultar</a>
                 </div>
               </motion.article>
             );
