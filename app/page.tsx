@@ -5,6 +5,7 @@ import TrustSection from "@/components/TrustSection";
 import ServicesSection from "@/components/ServicesSection";
 import MethodSection from "@/components/MethodSection";
 import PlayLearningSection from "@/components/PlayLearningSection";
+import RealMomentsSection from "@/components/RealMomentsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
@@ -20,6 +21,7 @@ export default function Home() {
       <TrustSection />
       <ServicesSection />
       <MethodSection />
+      <RealMomentsSection />
       <PlayLearningSection />
       <TestimonialsSection />
       <CTASection />

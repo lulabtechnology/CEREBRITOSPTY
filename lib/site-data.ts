@@ -84,6 +84,32 @@ export const site = {
     { step: "03", title: "Personalizamos", text: "Creamos un acompañamiento ajustado a su proceso." },
     { step: "04", title: "Acompañamos", text: "Damos seguimiento al progreso con amor, paciencia y profesionalismo." }
   ],
+  realMoments: [
+    {
+      title: "Aprendizaje con material didáctico",
+      text: "Actividades prácticas que ayudan a observar, construir, resolver y aprender desde la experiencia.",
+      image: "/images/custom/real/aprendizaje-con-materiales.webp",
+      tag: "Juego con intención",
+      color: "#A3EDF8",
+      position: "center 43%"
+    },
+    {
+      title: "Lectoescritura guiada",
+      text: "Acompañamiento cercano para fortalecer sílabas, palabras, trazos y seguridad al leer y escribir.",
+      image: "/images/custom/real/lectoescritura-guiada.webp",
+      tag: "Proceso personalizado",
+      color: "#FBD15F",
+      position: "58% 44%"
+    },
+    {
+      title: "Estudio dirigido en grupo",
+      text: "Un ambiente organizado, cálido y supervisado para avanzar en tareas, hábitos y confianza escolar.",
+      image: "/images/custom/real/estudio-dirigido.webp",
+      tag: "Acompañamiento diario",
+      color: "#E0BDFF",
+      position: "center 46%"
+    }
+  ],
   team: [
     { name: "Información editable", role: "Equipo Cerebritos", image: "/images/team/team-1.svg", text: "Puedes reemplazar esta tarjeta con la información real del equipo profesional cuando el cliente la comparta." },
     { name: "Información editable", role: "Equipo Cerebritos", image: "/images/team/team-2.svg", text: "Espacio listo para agregar nombres, especialidades y breve presentación del equipo." },
