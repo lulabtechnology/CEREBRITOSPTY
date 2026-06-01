@@ -7,7 +7,7 @@ export const site = {
   whatsappDisplay: "+507 6926-0019",
   phoneAltDisplay: "+507 6681-6322",
   phoneAltRaw: "66816322",
-  email: "beatrizcarm22@hotmail.com",
+  email: "info@cerebritospanama.com",
   address: "San Francisco, calle 74, Centro Profesional El Golf, piso 3 local 3-D.",
   addressFull: "A pasos de la entrada principal del Parque Omar.",
   ctaMessage: "Agenda tu clase prueba gratuita",

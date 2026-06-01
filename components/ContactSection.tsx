@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { motion } from "framer-motion";
-import { Instagram, MapPin, MessageCircle, Send } from "lucide-react";
+import { Instagram, Mail, MapPin, MessageCircle, Send } from "lucide-react";
 import { site } from "@/lib/site-data";
 import SectionHeading from "./SectionHeading";
 
@@ -32,7 +32,7 @@ export default function ContactSection() {
             centered={false}
             eyebrow="Contacto"
             title="Agenda una clase prueba o consulta"
-            text="Completa los datos y envía el mensaje directo por WhatsApp. También puedes escribir por Instagram."
+            text="Completa los datos y envía el mensaje directo por WhatsApp. También puedes escribir por Instagram o correo electrónico."
           />
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
             <a href={site.whatsapp} target="_blank" className="flex items-center gap-4 rounded-[2rem] bg-limon/35 p-5 shadow-soft transition hover:-translate-y-1">
@@ -42,6 +42,10 @@ export default function ContactSection() {
             <a href={site.instagram} target="_blank" className="flex items-center gap-4 rounded-[2rem] bg-lila/30 p-5 shadow-soft transition hover:-translate-y-1">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-fucsia"><Instagram /></div>
               <div><p className="font-black text-tinta">Instagram</p><p className="text-suave">@cerebritoscentro</p></div>
+            </a>
+            <a href={`mailto:${site.email}`} className="flex items-center gap-4 rounded-[2rem] bg-cielo/35 p-5 shadow-soft transition hover:-translate-y-1">
+              <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-tinta"><Mail /></div>
+              <div><p className="font-black text-tinta">Correo electrónico</p><p className="break-all text-suave">{site.email}</p></div>
             </a>
             <div className="flex items-start gap-4 rounded-[2rem] bg-sol/20 p-5 shadow-soft sm:col-span-2 lg:col-span-1">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-white text-tinta"><MapPin /></div>
